@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>재밌는 야구게임</title>
+    <style>
+        input{
+            width: 100px; height: 50px;
+        }
+        h1{
+            color: crimson;
+            font-family:monospace;
+            font-size:50px;
+        }
+        h2{
+            color:lightskyblue;
+        }
+    </style>
+</head>
+    <script language="javascript">
+    a=new Array(3);
+    in=new Array(3);
+        
+    var str="";
+    
+    var k=1;
+    var cnt=1;
+    function numln(){
+    var ans="정답: "
+     str+=cnt+"번째 입력: ";
+     cnt++;
+    var s=b=0;
+        in [0]=parselnt(cal.num.value/100);
+        in [1]=parselnt((cal.num.value%100)/10);
+        in [2]=parselnt((cal.num.value%100)%10);
+    //처음에는 바로 실행되고 k값이 1로 될때 다시 실행되게
+ if(k==1){
+   for(i=0;i<a.length;i++)
+  {
+   a[i]=parseInt(Math.random()*9+1);
+   //중복체크
+   for(j=0;j<i;j++)
+   {
+    if(a[i]==a[j])
+    {
+     i--;
+     //str+="중복";
+     break;
+    } 
+   }
+  }
+  k=0;
+ }
+ 
+//정답숫자 출력하기
+  for(i=0;i<a.length;i++)
+  {
+   ans+=a[i]+"&nbsp;&nbsp";
+  }
+
+//입력숫자 배열에 집어넣기
+  for(i=0;i<a.length;i++)
+  {
+   str+=In[i]+"&nbsp;&nbsp;&nbsp";
+  }
+ 
+
+//랜덤배열과 입력배열 비교하기
+  for(i=0;i<3;i++){
+   for(j=0;j<3;j++){
+    if(a[i]==In[j]){
+     if(i==j){
+      s++;
+      //str+="스트라이크";
+     }
+     else{
+      b++;
+      //str+="볼";
+     }
+    }
+   }
+  
+  }
+  str+="&nbsp;&nbsp;&nbsp;"+s+"S"+b+"B<br>"
+
+  cal.num.value="";
+  cal.num.focus();
+
+//정답을 맞췄을 경우
+ if(s==3){
+ out.innerHTML=str+"<br>"+ans; //정답을 출력해준다
+  var msg="축하합니다!!\n계속할려면 확인을 눌러주세요.";
+  var ans=confirm(msg);
+  if(ans){
+  k=1;  //재실행을 위해
+  str="";
+  cnt=1;
+  num.focus();
+  num.value="";
+  out.innerHTML=str;
+   return true;
+  }
+  else{
+   document.write("감사합니다.");
+   return false;
+  }
+ 
+ }
+ 
+ out.innerHTML=str;
+
+ }
+var str ="";
+function One() {
+ str += "1";
+out.innerHTML=str;
+ }
+function Two() {
+ str += "2";
+ out.innerHTML=str;
+}
+function Three() {
+ str += "3";
+out.innerHTML=str;
+}
+function Four() {
+ str += "4";
+out.innerHTML=str;
+}
+function Five() {
+ str += "5";
+out.innerHTML=str;
+}
+function Six() {
+ str += "6";
+ out.innerHTML=str;
+}
+function Seven() {
+ str += "7";
+out.innerHTML=str;
+}
+function Eight() {
+ str += "8";
+out.innerHTML=str;
+}
+function Nine() {
+ str += "9";
+out.innerHTML=str;
+}
+function ten() {
+ str += "0";
+out.innerHTML=str;
+}
+</script>
+<body>
+    <h1><i>재밌는 야구게임</i></h1>
+<fieldset>
+  
+   <br>    
+    <input type="button" value="start/restart" name="nums" onClick="numIn()">
+    
+    <br><br>
+     <form name="cal">
+     <br>
+ <table border=0 cellspacing=0 cellpadding=0>
+  <tr>
+   <td>
+    <input type="button"  value="  1  " name="one"  onClick="One()">
+   </td>
+   <td>
+    <input type="button"  value="  2  " name="two" onClick="Two()">
+   </td>
+   <td>
+    <input type="button"  value="  3  " name="three" onClick="Three()">
+   </td>
+    </tr>
+ <tr>
+   <td>
+    <input type="button"  value="  4  " name="four" onClick="Four()">
+   </td>
+   <td>
+    <input type="button"  value="  5  " name="five" onClick="Five()">
+   </td>
+   <td>
+    <input type="button"  value="  6  " name="six" onClick="Six()">
+   </td>
+    </tr>
+ <tr>
+   <td>
+    <input type="button"  value="  7  " name="seven" onClick="Seven()">
+   </td>
+   <td>
+    <input type="button"  value="  8  " name="eight" onClick="Eight()">
+   </td>
+   <td>
+    <input type="button"  value="  9  " name="nine" onClick="Nine()">
+   </td>
+   <td>
+    <input type="button"  value="  0  " name="zero" onClick="Zero()">
+   </td>
+    </tr>
+    <fieldset>
+    <img src="C:/Users/302/Pictures/images.jpg" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="C:/Users/302/Pictures/images (2).jpg" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="C:/Users/302/Pictures/다운로드.jpg" alt="">
+     </fieldset>
+     <br><br>
+ </table>
+    </form>
+    </fieldset>
+ <br><br>
+ <fieldset>
+     <h2>0-9 사이의 숫자<br> 3개를 입력하세요</h2>&nbsp;&nbsp;&nbsp;
+<input type="text" size=5 name="num">
+<input type="text" size=5 name="num">
+<input type="text" size=5 name="num">
+<input type="button" value="result" name="cals">
+</fieldset>
+ 
+
+<br><br><br>
+<img src="C:/Users/302/Pictures/02_220~1.JPG" alt="">
+
+
+</body>
+</html>

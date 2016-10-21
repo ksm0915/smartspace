@@ -1,0 +1,234 @@
+* { margin: 0; padding: 0;}
+#wrap {
+    width: 1180px;
+    height: 1700px;
+    margin : 0 auto;
+}
+li {
+    list-style: none;
+}
+em {
+    color: red;
+}
+.part{
+    font-size: 35px;
+    font-weight: 300;
+}
+.part2{
+    margin-top: 10px;
+}
+.topmenu ul li {
+    margin-top: 20px;
+    float: left;
+    font-size: 12px;
+}
+.topmenu ul {
+    float: right;
+}
+.small ul li{
+    float: left;
+    font-size: 12px;
+}
+.small {
+    margin-top: 49px;
+    float: right;
+}
+.mainmenu ul li {
+    float: left;
+}
+.mainmenu ul {
+    width: 1200px;
+    height: 100px;
+    float: left;
+}
+.mainmenu ul li {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.mainmenu {
+    width: 1080px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-top: 4px solid black;
+    padding: 20px 0 0 0;
+}
+.logo {
+    width: 185px;
+    height: 80px;
+    border-top: 4px solid #4033F0;
+    padding-top : 18px;
+    float:left;
+    margin-top: 55px;
+    margin-left: -185px;
+}
+.service {
+    text-align : left;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -190px;
+}
+h1 {
+    padding: 10px;
+    font-size: 39px;
+    font-weight:300;
+    text-align: center;
+    margin-left: -10px;
+    
+}
+.thing {
+    border-top: 4px solid red;
+    width: 175px;
+    padding: 10px
+}
+.participate {
+    margin-top: 5px;
+    border-top: 1px solid gray;
+    padding: 5px 0 5px 0;
+}
+.find {
+    margin-top: 5px;
+    border-top: 1px solid gray;
+    padding: 5px 0 5px 0;
+}
+.fix {
+    margin-top: 5px;
+    border-top: 1px solid gray;
+    padding: 5px 0 5px 0;
+}
+.sure {
+    margin-top: 5px;
+    border-top: 1px solid gray;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid gray;
+}
+.a1{
+    margin-left: 136px;
+}
+.a2 {
+    margin-left: 136px;
+}
+.a3{
+    margin-left: 136px;
+}
+.a4{
+    margin-left: 136px;
+}
+section {
+    clear: both;
+}
+.signUp {
+    width: 1080px;
+    height: 100px;
+    float: left;
+    border-top: 4px solid black;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 30px 0 0 0;
+}
+.submenu {
+    border-top: 4px solid black;
+    width: 1380px;
+    float: left;
+    margin-top: 130px;
+    margin-left: -200px;
+    padding: 20px 0 0 0;
+}
+.input {
+    width: 1080px;
+    height: auto;
+    float: left;
+    margin-top: 230px;
+    margin-left: 100px;
+    border-top: 4px solid gray;
+    padding: 20px 0 0 0;
+}
+.input2 {
+    width: 1080px;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-top: 4px solid gray;
+    padding: 20px 0 0 0;
+}
+.input3 {
+    width: 1080px;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-top: 4px solid gray;
+    padding: 20px 0 0 0;
+}
+.time {
+    width: 230px;
+    height: 140px;
+    border: 1px solid #acacac;
+    margin-top: 40px;
+    text-align: center;
+    line-height:140px;
+}
+.time2 {
+    width: 230px;
+    height: 140px;
+    border: 1px solid #acacac;
+    margin-top: -140px;
+    margin-left: 280px;
+    text-align: center;
+    line-height:140px;
+}
+.time3 {
+    width: 230px;
+    height: 140px;
+    border: 1px solid #acacac;
+    margin-top: -140px;
+    margin-left: 280px;
+    text-align: center;
+    line-height:140px;
+    background-color:darkblue;
+    color: white;
+}
+.time4 {
+    width: 230px;
+    height: 140px;
+    border: 1px solid #acacac;
+    margin-top: -140px;
+    margin-left: 280px;
+    text-align: center;
+    line-height:140px;
+    color: black;
+}
+.input3 input {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    float: left;
+}
+.information input{
+    width: 100px;
+    height: 20px;
+    padding: 1px
+}
+.button {
+    margin-left: 300px;
+    border: 1px solid #acacac;
+    background-color:
+    border-radius: 3px;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+.button2 {
+    margin-left: 10px;
+    background-color: #0084f3;
+    border: 1px solid #0084c4;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: white
+}
+.copy{
+    font-size: 15px;  
+    margin-top: 10px;
+}

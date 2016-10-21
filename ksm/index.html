@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        li{
+            list-style: none;
+        }
+        fieldset{
+            color: darkblue;
+        }
+        b{
+            color: red;
+        }
+        em{
+            color: red;
+        }
+    </style>
+    <h1>- 회원가입 -</h1>
+</head>
+<body>
+   <div id="wrap">
+    <form>
+        <ul>
+            <fieldset class="register">
+            <li><label class="reg" for="user_name">이름 : <em>*</em> &nbsp; &nbsp;<input type="text" size="10"></label> <b>ex) 홍길동</b></li>
+            <li><label class="reg" for="user_nickname">별명 : <em>*</em> &nbsp; &nbsp; <input type="text" size="10"></label> <b>ex) 민달팽이</b></li>
+            <li><label class="reg" for="user_birth">생년월일 : <em>*</em> &nbsp; &nbsp; <input type="text" size="7"> - <input type="text" size="7"> - <input type="text" size="7"></label>&nbsp;<b>ex) 2000-09-15</b></li>
+            <br>
+            
+            <li><label class="reg" for="user_id">아이디 <em>*</em> &nbsp;: &nbsp; &nbsp;<input type="text" id="user_id" size="15"> &nbsp; <b>*한글, 영문 혼합하여 입력! ex) ksm0915</b></label></li>
+            
+            
+            <li><label class="reg" for="user_pw">비밀번호 <em>*</em> &nbsp;: &nbsp; &nbsp;<input type="password" id="user_pw"> &nbsp; <b>*최소 8글자 이상!</b></label></li>
+            <li><label class="reg" for="user_pw">비밀번호 확인 <em>*</em> &nbsp;: &nbsp; &nbsp;<input type="password" id=""> &nbsp; <b>*위에 입력하신 비밀번호를 똑같이 입력하세요.</b></label></li>
+            <br>
+            <li>
+                비밀번호 분실 시 질문 <em>*</em> &nbsp; &nbsp;<b>*선택 1개</b>
+                <br>
+                <label><input type="checkbox">내가 자주 이용하는 대중교통은?</label>
+                <label><input type="checkbox">내가 가장 좋아하는 것은?</label>
+                <label><input type="checkbox">나의 출생지는?</label>
+                <br>
+                답변 : <label><input type="text"></label>
+            </li>
+            <br>
+            
+                <li>주소 <em>*</em> &nbsp; <label><input type="text"> &nbsp; <input type="button" value="주소 찾기"></label></li>
+            <li><label><input type="text" size="30"></label></li>
+            <br>
+            
+            <li>
+                <label class="reg" for="user_tel">전화번호 : <em>*</em> &nbsp; &nbsp;<input type="tel" size="5">-<input type="tel" size="8">-<input type="tel" size="8"></label>
+                <b>ex) 010-3025-6529</b>
+            </li>
+               <li>
+               휴대폰 수신
+                <label>
+                    <input type="radio" value="yes" name="letter">수신
+                </label>
+                <label>
+                    <input type="radio" value="no" name="letter">수신안함
+                </label>
+            </li>
+            <br>
+            <li>
+                <label class="reg" for="user_mail">메일 주소 : <em>*</em> &nbsp; &nbsp;<input type="email" size="25"></label>
+                <b>ex) ksmksy0915@naver.com</b>
+            </li>
+            <li>
+               이메일 수신
+                <label>
+                    <input type="radio" value="yes" name="letter">수신
+                </label>
+                <label>
+                    <input type="radio" value="no" name="letter">수신안함
+                </label>
+            </li>
+            <br>
+            <li><label><input type="text">&nbsp;<input type="submit" value="인증하기"> &nbsp; <b>*수신체크한 수단으로 인증번호가 발송되었습니다. (제한시간 : 3분)</b></label></li>
+            <br>
+            <fieldset class="agree">
+                <legend>약관동의</legend>
+                <textarea name="intro" id="" cols="60" rows="10">가입자분께서 작성하신 정보는 이메일 전화번호 수신을 통한 이벤트, 상품 알림을 위한 목적과 정확한 고객의 신변을 파악하기 위한 정보로 다른 사람에게 고객님의 정보를 유출시키거나 악용, 남용하지않습니다.
+
+* 위의 목적으로 사용하는 것에 대해 이의가 없의신 분들은 '동의함'을 체크, 불만이 있거나 반대하시는 고객분들은 '동의하지 않음'을 체크해주시기 바랍니다.                
+                </textarea>
+                <li>
+                <label><input type="radio"   value="yes" name="letter"> 동의함</label><label><input type="radio" value="no" name="letter"> 동의하지 않음</label>
+                </li>
+            </fieldset>
+            <br>
+            <div class="button12">
+            <div class="button"><input type="submit" value="취소"></div>
+            <div class="button2"><li><input type="submit" value="가입하기"></li></div>
+            </div>
+            </fieldset>
+        </ul>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <p>1.</p>
+    <fieldset>
+        <legend>전화번호</legend>
+        <input name="areaCode" title="지역번호" id="areaCode" type="text" size="3" value="">
+        <input name="areaCode" title="지역번호" id="areaCode" type="text" size="3" value="">
+        <input name="areaCode" title="지역번호" id="areaCode" type="text" size="3" value="">
+    </fieldset>
+    <br>
+    <p>2.</p>
+    <fieldset>
+        <legend>사과를 좋아하십니까?</legend>
+        <input type="radio" id="apples-y" name="apples">
+        <label for="apples-y">예</label><br>
+        <input type="radio" id="apples-n" name="apples">
+        <label for="apples-n">아니요</label>
+    </fieldset>
+    <br>
+    <p>3.</p>
+    <div role="radiogroup" aria-labelledby="subscription">
+    <p id="subscription">
+        구독 방법을 선택하세요
+    </p>
+    <input type="radio" id="daily" name="subscribe">
+    <label for="daily">매일</label><br>
+    <input type="radio" id="weekly" name="subscribe">
+    <label for="weekly">주간</label><br>
+    </div>
+    <br>
+    <p>4.</p>
+    <div role="group" aria-labelledby="pizza">
+        <p id="pizza"> 피자토핑선택 </p>
+        <input id="ham" type="checkbox" name="toppings" value="ham">
+        <label for="ham">햄</label><br>
+        <input id="pepperoni" type="checkbox" name="toppings" value="pepperoni">
+        <label for="pepperoni">페퍼로니</label><br>
+        <input id="mushrooms" type="checkbox" name="toppings" value="mushrooms">
+        <label for="mushrooms">버섯</label><br>
+        <input id="olives" type="checkbox" name="toppings" value="olives">
+        <label for="olives">올리브</label>
+    </div>
+</body>
+</html>

@@ -1,0 +1,354 @@
+* { margin: 0; padding: 0;}
+#wrap {
+    margin : 0 auto;
+    height: auto;
+    color: white;
+}
+li {
+    list-style: none;
+}
+section{
+    height: 910px;
+    margin-top: -10px;
+}
+footer{
+    height: 120px;
+    background-color: snow;
+}
+.main{
+    font-size: 30px;
+    height: 50px;
+    width: 320px;
+    margin-left: -23px;
+    color: white;
+    background-color: limegreen;
+    border: 2px solid #2F9D27;
+}
+.topmenu{
+    height: 50px;
+    width: 1600px;
+    margin-top: -54px;
+    float:right;
+    color: white;
+    background-color: limegreen;
+    border: 2px solid #2F9D27;
+}
+.topmenu ul li{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.topmenu ul {
+    float: right;
+}
+.search{
+    color: black;
+}
+.text{
+    width: 150px;
+    height: 20px;
+    margin-top: 15px;
+    border: 2px solid #2F9D27;
+}
+.img{
+    width: 20px;
+    height: 20px;
+    margin-top: -20px;
+}
+.mail{
+    width: 120px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 45px;
+    border: 3px solid #2F9D27;
+    border-radius: 3px;
+    background-color: limegreen;
+}
+.memo{
+    width: 120px;
+    height: 45px;
+    margin-top: -51px;
+    margin-left: 150px;
+    text-align: center;
+    line-height: 45px;
+    border: 3px solid #2F9D27;
+    border-radius: 3px;
+    background-color: limegreen;
+}
+.number{
+    width: 20px;
+    margin-top: -880px;
+    margin-left: 44px;
+    color: dodgerblue;
+}
+.read{
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 15px;
+    color:gray;
+}
+.star{
+    margin-top: -53px;
+    margin-left: 100px;
+    color: orange;
+}
+.important{
+    margin-top: 11.5px;
+    margin-left: 92px;
+    color: gray;
+}
+.v{
+    margin-top: -53px;
+    margin-left: 160px;
+    color: gray;
+}
+.photo{
+    margin-top: 4px;
+    margin-left: 155px;
+    color: gray;
+}
+.dear{
+    margin-top: -48px;
+    margin-left: 235px;
+    color: gray;
+}
+.p{
+    width: 20px;
+    height: 20px;
+    margin-top: -220px;
+    margin-left: -3px;
+    color: gray;
+}
+.to{
+    width: 70px;
+    margin-top: 7.4px;
+    margin-left: 210px;
+    color: gray;
+}
+.rkfh{
+    width: 300px;
+    height: 1px;
+    margin-top: 35px;
+    background-color: gainsboro;
+}
+.line{
+    width: 1px;
+    height: 1030px;
+    margin-top: -71px;
+    margin-left: 299px; 
+    background-color: gray;
+}
+.form{
+    margin-left: 20px;
+    margin-top: 17px;
+    font-family: monospace;
+    font-size: 15px;
+    color: black;
+}
+.add{
+    width: 15px;
+    height: 15px;
+    margin-left: 123px;
+}
+.setting{
+    width: 15px;
+    height: 15px;
+    margin-left: 1px;
+}
+.add2{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.setting2{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+.rkfh2{
+    width: 300px;
+    height: 1px;
+    margin-top: 15px;
+    background-color: gainsboro;
+}
+.all{
+    width: 100px;
+    margin-top: -27px;
+    margin-left: 60px;
+    color: gray
+}
+.allmail{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.given{
+    width: 100px;
+    margin-top: -27px;
+    margin-left: 60px;
+    color: gray;
+}
+.givenmail{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.send{
+    width: 100px;
+    margin-top: -27px;
+    margin-left: 60px;
+    color: gray;
+}
+.sendmail{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.when{
+    width: 100px;
+    margin-top: -27px;
+    margin-left: 60px;
+    color: gray;
+}
+.just{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.memoham{
+    width: 100px;
+    margin-top: -27px;
+    margin-left: 60px;
+    color: gray;
+}
+.memochest{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rkfh3{
+    width: 300px;
+    height: 1px;
+    margin-top: 28px;
+    background-color: gainsboro;
+}
+.rkfh4{
+    width: 320px;
+    height: 1px;
+    margin-top: 17px;
+    margin-left: -20px;
+    background-color: gainsboro;
+}
+.spam{
+    width: 100px;
+    margin-top: -25px;
+    margin-left: 55px;
+    color: gray;
+}
+.privent{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.trash{
+    width: 100px;
+    margin-top: -25px;
+    margin-left: 55px;
+    color: gray;
+}
+.delet{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.come{
+    width: 150px;
+    margin-top: -25px;
+    margin-left: 55px;
+    color: gray;
+}
+.out{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rkfh5{
+    width: 1950px;
+    height: 1px;
+    margin-top: 100px;
+    background-color: gray;
+}
+.mb{
+    color: dodgerblue;
+    font-family: monospace;
+    font-size: 15px;
+}
+.submenu{
+    height: 50px;
+    width: 600px;
+    margin-right: 1300px;
+    float:right;
+    color: gray;
+    background-color: snow;
+}
+.submenu ul li{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+}
+.submenu ul {
+    float: left;
+}
+.copy{
+    width: 160px;
+    height: 20px;
+    margin-top: -30px;
+    margin-left: 900px;
+    color: gray;
+    float : left;
+    display :inline-block;
+}
+.submenu2{
+    height: 50px;
+    width: 300px;
+    margin-top: -30px;
+    margin-right: 10px;
+    float: right;
+    color: gray;
+    background-color: snow;
+}
+.submenu2 ul li{
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.tel{
+    width: 1500px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 13px;
+    color: gray;
+}
+.check{
+    background-color: azure;
+    border: 2px solid  dodgerblue;
+    border-radius: 2px;
+    line-height: 20px;
+}

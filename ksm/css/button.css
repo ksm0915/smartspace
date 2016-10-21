@@ -1,0 +1,18 @@
+button{
+    display: block;
+    background-color: #CCCCCC;
+    border: 1px solid #dedede;
+    cursor: pointer;
+    padding: 5px 10px 6px 7px;
+}
+button img{
+    border: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+}
+.subm:hover{
+    background-color: #e6efc2;
+    border: 1px solid #c6d880;
+    color: #529215;
+}
